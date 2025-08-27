@@ -54,7 +54,7 @@ func (p *PortProtocolMatcher) Equals(other *PortProtocolMatcher) bool {
 	return isIntStringEqual(*p.Port, *other.Port)
 }
 
-// PortRangeMatcher works with endports to specify a range of matched numeric ports.
+// PortRangeMatcher works with end-ports to specify a range of matched numeric ports.
 type PortRangeMatcher struct {
 	From     int
 	To       int
