@@ -47,7 +47,7 @@ func NewTruthTable(froms []string, tos []string, defaultValue func(fr, to string
 	}
 }
 
-// IsComplete returns true if there's a value set for every single pair of items, otherwise it returns false.
+// IsComplete returns true if there's a value set for every single pair of items; otherwise, it returns false.
 func (tt *TruthTable) IsComplete() bool {
 	for _, from := range tt.Froms {
 		for _, to := range tt.Tos {

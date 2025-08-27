@@ -48,7 +48,7 @@ type Peer struct {
 // Matches checks whether the Peer matches the PodString:
 // - an empty namespace means the namespace will always match
 // - otherwise, the namespace must match the PodString's namespace
-// - same goes for Pod: empty matches everything, otherwise must match exactly
+// - same goes for Pod: empty matches everything; otherwise, must match exactly
 func (p *Peer) Matches(pod PodString) bool {
 	return (p.Namespace == "" || p.Namespace == pod.Namespace()) && (p.Pod == "" || p.Pod == pod.PodName())
 }
