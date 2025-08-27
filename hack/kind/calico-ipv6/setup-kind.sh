@@ -20,7 +20,7 @@ kubectl get nodes
 kubectl get all -A
 
 kubectl apply -f calico-3.18.1.yaml
-# was: had to add 2 entries to calico configmap:
+# was: had to add two entries to calico configmap:
 #   https://docs.projectcalico.org/networking/ipv6#enable-ipv6-only
 #kubectl apply -f https://docs.projectcalico.org/manifests/calico.yaml
 
