@@ -33,7 +33,7 @@
 
 ## How to Release Binaries
 
-See `goreleaser`'s requirements [here](https://goreleaser.com/environment/).
+See [`goreleaser`'s requirements](https://goreleaser.com/environment/).
 
 Get a [GitHub Personal Access Token](https://github.com/settings/tokens/new) and add the `repo` scope.
 Set `GITHUB_TOKEN` to this value:
