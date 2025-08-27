@@ -112,7 +112,7 @@ key types:
 
 Goals:
  - model of network policy test scenario -- data collection, cluster perturbation
- - generate network policy test scenarios, whic explore various features of network 
+ - generate network policy test scenarios, which explore various features of network 
    policies including subtle areas of syntax and semantics
  - organize test scenarios by features used, to enable focus in testing and analysis of results
 
